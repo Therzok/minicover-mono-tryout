@@ -12,4 +12,4 @@ dotnet minicover htmlreport --workdir ../
 open ../coverage-html/index.html
 ```
 
-
+See [the generated samples](generated-samples) for generated data on this repository.
