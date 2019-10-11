@@ -1,0 +1,48 @@
+{
+  "SourcePath": "/Users/therzok/Work/md/coverage-tryout/",
+  "HitsFile": "/Users/therzok/Work/md/coverage-tryout/coverage.hits",
+  "ExtraAssemblies": [
+    "/Users/therzok/Work/md/coverage-tryout/nunit2/bin/Debug/net472/MiniCover.HitServices.dll"
+  ],
+  "Assemblies": [
+    {
+      "Name": "console",
+      "SourceFiles": {
+        "console/Program.cs": {
+          "Instructions": [
+            {
+              "Id": 1,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 4,
+              "EndColumn": 13,
+              "Class": "console.MyClass",
+              "Method": "Instrumented",
+              "MethodFullName": "System.Int32 console.MyClass::Instrumented()",
+              "Instruction": "IL_0001: ldc.i4 2"
+            },
+            {
+              "Id": 2,
+              "StartLine": 14,
+              "EndLine": 14,
+              "StartColumn": 4,
+              "EndColumn": 13,
+              "Class": "console.MyClass",
+              "Method": "Uninstrumented",
+              "MethodFullName": "System.Int32 console.MyClass::Uninstrumented()",
+              "Instruction": "IL_0001: ldc.i4 1"
+            }
+          ]
+        }
+      },
+      "Locations": [
+        {
+          "File": "/Users/therzok/Work/md/coverage-tryout/nunit2/bin/Debug/net472/console.dll",
+          "BackupFile": "/Users/therzok/Work/md/coverage-tryout/nunit2/bin/Debug/net472/console.uninstrumented.dll",
+          "PdbFile": "/Users/therzok/Work/md/coverage-tryout/nunit2/bin/Debug/net472/console.pdb",
+          "BackupPdbFile": "/Users/therzok/Work/md/coverage-tryout/nunit2/bin/Debug/net472/console.uninstrumented.pdb"
+        }
+      ]
+    }
+  ]
+}
