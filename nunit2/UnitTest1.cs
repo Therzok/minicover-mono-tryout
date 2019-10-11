@@ -3,6 +3,7 @@ using console;
 
 namespace nunit
 {
+	[TestFixture]
     public class Tests
     {
         [SetUp]

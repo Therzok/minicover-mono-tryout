@@ -4,12 +4,14 @@ namespace console
 {
 	public class MyClass
 	{
-		public void Instrumented()
+		public int Instrumented()
 		{
+			return 2;
 		}
 
-		public void Uninstrumented()
+		public int Uninstrumented()
 		{
+			return 1;
 		}
 	}
 }
